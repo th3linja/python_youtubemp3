@@ -18,7 +18,7 @@ Run the program and paste the link of a youtube video into the URL prompt. **Add
 ## Installing
 Head over to [Python.org](https://www.python.org/) to download the latest version of Python if you haven't already. Make sure to enable pip in  `Optional Features` when installing. After installing, head over to Advanced System Settings -> Environment Variables and add Python into PATH. Open the command prompt (cmd) and run the command `pip3 install youtube-dl`.
 
-If you do not have `ffmpeg` downloaded, you can head to this [link](https://www.ffmpeg.org/download.html) to download it. Keep in mind that I will have a version of `ffmpeg` available in this project.
+If you do not have `ffmpeg` downloaded, you can head to this [link](https://www.ffmpeg.org/download.html) to download it. **Add `ffmpeg` into PATH (specifically the bin folder containing the three `EXE`'s: _ffmpeg_, _ffplay_, and _ffprobe_)**. Keep in mind that I will have a version of `ffmpeg` available in this project.
 
 Download this project folder, which will contain both `ffmpeg` and `Youtube-mp3.py`.
 
@@ -27,6 +27,7 @@ Make sure `youtube-dl` is up to date by running `pip3 install --upgrade youtube-
 Make sure `ffmpeg` is in the same directory as your working folder.
 Change the file path in `Youtube-mp3.py` (refer to **Getting Started**).
 Make sure that `ffmpeg` and `Youtube-mp3.py` is in the same working directory.
+Make sure `ffmpeg` is added in PATH under Environment Variables.
 
 ## Built With
   * Python
