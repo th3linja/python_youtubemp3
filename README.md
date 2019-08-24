@@ -23,11 +23,11 @@ If you do not have `ffmpeg` downloaded, you can head to this [link](https://www.
 Download this project folder, which will contain both `ffmpeg` and `Youtube-mp3.py`.
 
 ## Running Tests
-Make sure `youtube-dl` is up to date by running `pip3 install --upgrade youtube-dl`. UPDATE: `youtube_dl` will be updated upon execution.
-Make sure `ffmpeg` is in the same directory as your working folder.
-Change the file path in `Youtube-mp3.py` (refer to **Getting Started**).
-Make sure that `ffmpeg` and `Youtube-mp3.py` is in the same working directory.
-Make sure `ffmpeg` is added in PATH under Environment Variables.
+ * Make sure `youtube-dl` is up to date by running `pip3 install --upgrade youtube-dl`. UPDATE: `youtube_dl` will be updated upon execution.
+ * Make sure `ffmpeg` is in the same directory as your working folder.
+ * Change the file path in `Youtube-mp3.py` (refer to **Getting Started**).
+ * Make sure that `ffmpeg` and `Youtube-mp3.py` is in the same working directory.
+ * Make sure `ffmpeg` is added in PATH under Environment Variables.
 
 ## Built With
   * Python
