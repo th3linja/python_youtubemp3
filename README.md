@@ -10,7 +10,7 @@ When everything is done installing, open `Youtube-mp3.py` with any suitable IDE 
 
 Run the program and paste the link of a youtube video into the URL prompt. **Add a space before pressing `ENTER` (otherwise you may end up opening the same link in a different tab on your browser).** The program should run if everything is done correctly and you should see a `.mp3` under the file location of where you indicated in `outtmpl`.
 
-## Prequisites
+## Prerequisites
   * Python
   * ffmpeg
   * youtube-dl
